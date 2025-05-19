@@ -1,4 +1,4 @@
-# LVGL ported to BOARD NAME
+# LVGL ported to iCOP QEC-PPC-M-090T
 
 ## Overview
 
@@ -16,11 +16,29 @@ There is a separate dedicated core for EtherCAT.
 
 Describe the default buffering and other configuration.
 
-<!-- <a href="https://www.youtube.com/watch?v=XXXXXXXXXXXXXXXXXXXXXXX">
-    <img src="https://github.com/user-attachments/assets/87c1f2e5-0260-4772-b711-13fdab467474" width="75%">
-</a> -->
+<a href="https://www.youtube.com/watch?v=0TSrAsCWQlw">
+    <img src="https://github.com/user-attachments/assets/ad43cb34-e40d-4c93-b670-b6ecf11743c2" width="75%">
+</a>
 
-
+| Name                      | Avg. CPU | Avg. FPS | Avg. time | render time | flush time |
+| :------------------------ | -------: | -------: | --------: | ----------: | ---------: |
+| Empty screen              | 78%      | 21       | 30        | 2           | 28         |
+| Moving wallpaper          | 88%      | 21       | 40        | 5           | 35         |
+| Single rectangle          | 18%      | 57       | 2         | 0           | 2          |
+| Multiple rectangles       | 75%      | 40       | 18        | 1           | 17         |
+| Multiple RGB images       | 45%      | 57       | 6         | 1           | 5          |
+| Multiple ARGB images      | 63%      | 55       | 9         | 5           | 4          |
+| Rotated ARGB images       | 78%      | 42       | 17        | 15          | 2          |
+| Multiple labels           | 80%      | 37       | 20        | 11          | 9          |
+| Screen sized text         | 92%      | 10       | 88        | 55          | 33         |
+| Multiple arcs             | 85%      | 29       | 27        | 11          | 16         |
+| Containers                | 30%      | 52       | 4         | 2           | 2          |
+| Containers with overlay   | 84%      | 16       | 52        | 25          | 27         |
+| Containers with opa       | 39%      | 55       | 7         | 5           | 2          |
+| Containers with opa_layer | 57%      | 43       | 14        | 12          | 2          |
+| Containers with scrolling | 89%      | 15       | 56        | 24          | 32         |
+| Widgets demo              | 92%      | 12       | 65        | 39          | 26         |
+| All scenes avg.           | 68%      | 35       | 28        | 13          | 15         |
 
 ## Specification
 
