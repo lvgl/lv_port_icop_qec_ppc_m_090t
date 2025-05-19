@@ -14,7 +14,7 @@ There is a separate dedicated core for EtherCAT.
 
 ## Benchmark
 
-Describe the default buffering and other configuration.
+The benchmark is of `LVGL_Arduino` in this repo.
 
 <a href="https://www.youtube.com/watch?v=0TSrAsCWQlw">
     <img src="https://github.com/user-attachments/assets/ad43cb34-e40d-4c93-b670-b6ecf11743c2" width="75%">
