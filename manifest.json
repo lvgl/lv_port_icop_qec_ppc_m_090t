@@ -29,7 +29,7 @@
     "logos": [
         "https://raw.githubusercontent.com/lvgl/project-creator/master/meta/images/icop/logo.svg"
     ],
-    "image": "https://raw.githubusercontent.com/lvgl/~/lv_port_icop_qec_ppc_m_090t/master/board_images/iCOP_QEC-PPC-M-090T.webp",
+    "image": "https://raw.githubusercontent.com/lvgl/lv_port_icop_qec_ppc_m_090t/refs/heads/master/board_images/iCOP_QEC-PPC-M-090T.webp",
     "buy_now_links": [],
     "branches": [
         "v9.2"
